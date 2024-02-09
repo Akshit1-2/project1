@@ -1,0 +1,169 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: #f8fad5;
+}
+.nav{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-evenly;
+}
+h1 b{
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+}
+h1{
+    color: rgb(89, 89, 89);
+    font-size: 50px;
+}
+ul{
+    margin-top: 55px;
+    display: flex;
+}
+ul li{
+    list-style-type: none;
+    margin-left: 10rem;
+}
+a{
+
+    font-size: 20px;
+    text-decoration: none;
+    justify-content: center;
+}
+a:hover{
+    color: rgb(0, 157, 255);
+}
+
+
+.about h1{
+    word-spacing: 8px;
+    letter-spacing: 10px;
+    font-size: 40px;
+    color: purple;
+    text-align: center;
+    justify-content: center;
+}
+.gallery{display: flex; gap: 1rem;
+margin: 3rem;
+justify-content: space-evenly;}
+
+.gallery>div{
+   flex: 1; 
+   overflow: hidden;
+   border-radius: 1rem;
+}
+img{
+    width: 100%;
+    transition: all .5s;
+}
+img:hover{
+    transform: scale(1.2) rotate(12deg);
+}
+
+
+.about2 h1{
+    word-spacing: 8px;
+    letter-spacing: 10px;
+    font-size: 40px;
+    color: purple;
+    text-align: center;
+    justify-content: center;
+}
+.gallery2{display: flex; gap: 1rem;
+margin: 3rem;}
+
+.gallery2>div{
+   flex: 1; 
+   overflow: hidden;
+   border-radius: 1rem;
+}
+img{
+    height: 100%;
+    width: 100%;
+    transition: all .5s;
+}
+img:hover{
+    transform: scale(1.4) rotate(12deg);
+}
+
+.about3 h1{
+    word-spacing: 8px;
+    letter-spacing: 10px;
+    font-size: 40px;
+    color: purple;
+    text-align: center;
+    justify-content: center;
+}
+.gallery3{display: flex; gap: 1rem;
+margin: 3rem;}
+
+.gallery3>div{
+   flex: 1; 
+   overflow: hidden;
+   border-radius: 1rem;
+}
+img{
+    width: 100%;
+    transition: all .5s;
+}
+img:hover{
+    transform: scale(1.4) rotate(12deg);
+}
+
+.about4 h1{
+    word-spacing: 8px;
+    letter-spacing: 10px;
+    font-size: 40px;
+    color: purple;
+    text-align: center;
+    justify-content: center;
+}
+
+.gallery4{display: flex; gap: 1rem;
+    margin: 3rem;}
+    
+    .gallery4>div{
+       flex: 1; 
+       overflow: hidden;
+       border-radius: 1rem;
+    }
+    img{
+        width: 100%;
+        transition: all .5s;
+    }
+    img:hover{
+        transform: scale(1.4) rotate(12deg);
+    }
+    .BUTTON{
+        text-align: center;
+        
+    }
+    button{
+        border-radius: 10px;
+        
+    }
+    footer{
+        background-color: rgb(88, 88, 88);
+        padding: 2%;
+        margin: 0%;
+        margin-top: 4rem;
+    }
+    p{
+        text-align: center;
+        justify-content: center;
+        font-size: 18px;
+        color: white;
+    }
+
+    h2{
+        text-align: center;
+        font-size: 5rem;
+        letter-spacing: 5rem;
+        font-weight: bold;
+    }
+    /* h3{
+
+        font-size: 10rem;
+        letter-spacing: 4rem;
+        color: rgba(0, 0, 0, 0.24);
+    }  */
